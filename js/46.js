@@ -1,12 +1,13 @@
 // Example
-var firstLetterOfFirstName = "";
-var firstName = "Ada";
+function ourFunctionWithArgs(a, b) {
+    console.log(a - b);
+}
+ourFunctionWithArgs(10, 5); // Outputs 5
 
-firstLetterOfFirstName = firstName[0];
+// Only change code below this line.
 
-// Setup
-var firstLetterOfLastName = "";
-var lastName = "Lovelace";
+function functionWithArgs(a, b) {
+    console.log(a + b)
+}
 
-// Only change code below this line
-firstLetterOfLastName = lastName[0];
+functionWithArgs(5, 15);
