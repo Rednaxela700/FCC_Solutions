@@ -1,12 +1,9 @@
 // Example
-var firstLetterOfFirstName = "";
 var firstName = "Ada";
-
-firstLetterOfFirstName = firstName[0];
+var lastLetterOfFirstName = firstName[firstName.length - 1];
 
 // Setup
-var firstLetterOfLastName = "";
 var lastName = "Lovelace";
 
-// Only change code below this line
-firstLetterOfLastName = lastName[0];
+// Only change code below this line.
+var lastLetterOfLastName = lastName[lastName.length - 1];
