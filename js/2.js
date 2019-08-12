@@ -1,7 +1,4 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+// Example
+var ourName;
+var myName;
+// Declare myName below this line
