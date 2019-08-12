@@ -1,7 +1,5 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+// Setup
+var a = 7;
+var b = a;
+
+// Only change code below this line
