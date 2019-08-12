@@ -1,7 +1,8 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
+
+// Only change code below this line
+
+var myFirstName = "Alexander";
+var myLastName = "rednaxela";
