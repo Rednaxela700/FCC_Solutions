@@ -1,12 +1,10 @@
 // Example
-var firstLetterOfFirstName = "";
-var firstName = "Ada";
-
-firstLetterOfFirstName = firstName[0];
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
 
 // Setup
-var firstLetterOfLastName = "";
-var lastName = "Lovelace";
+var myArray = [["John", 23], ["dog", 3]];
 
-// Only change code below this line
-firstLetterOfLastName = lastName[0];
+// Only change code below this line.
+var removedFromMyArray = myArray.shift();
