@@ -1,12 +1,7 @@
-// Example
-var firstLetterOfFirstName = "";
-var firstName = "Ada";
-
-firstLetterOfFirstName = firstName[0];
-
-// Setup
-var firstLetterOfLastName = "";
-var lastName = "Lovelace";
-
-// Only change code below this line
-firstLetterOfLastName = lastName[0];
+var myList = [
+    ["chocolate bar", 5],
+    ["water", 0],
+    ["salad", 25],
+    ["chewing gum", 3],
+    ["fries", 15]
+];
