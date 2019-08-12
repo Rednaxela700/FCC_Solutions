@@ -1,12 +1,12 @@
 // Example
-var firstLetterOfFirstName = "";
-var firstName = "Ada";
+function ourReusableFunction() {
+    console.log("Heyya, World");
+}
 
-firstLetterOfFirstName = firstName[0];
-
-// Setup
-var firstLetterOfLastName = "";
-var lastName = "Lovelace";
-
+ourReusableFunction();
 // Only change code below this line
-firstLetterOfLastName = lastName[0];
+function reusableFunction() {
+    console.log("Hi World");
+}
+
+reusableFunction();
