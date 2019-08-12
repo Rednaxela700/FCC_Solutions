@@ -1,12 +1,10 @@
-// Example
-var firstLetterOfFirstName = "";
-var firstName = "Ada";
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    // Your code below this line
+    var result = myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb;
 
-firstLetterOfFirstName = firstName[0];
+    // Your code above this line
+    return result;
+}
 
-// Setup
-var firstLetterOfLastName = "";
-var lastName = "Lovelace";
-
-// Only change code below this line
-firstLetterOfLastName = lastName[0];
+// Change the words here to test your function
+wordBlanks("dog", "big", "ran", "quickly");
