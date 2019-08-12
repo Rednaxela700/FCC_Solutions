@@ -1,12 +1,5 @@
 // Example
-var firstLetterOfFirstName = "";
-var firstName = "Ada";
+var ourArray = ["John", 23];
 
-firstLetterOfFirstName = firstName[0];
-
-// Setup
-var firstLetterOfLastName = "";
-var lastName = "Lovelace";
-
-// Only change code below this line
-firstLetterOfLastName = lastName[0];
+// Only change code below this line.
+var myArray = ["Alexander", 26];
