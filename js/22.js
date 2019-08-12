@@ -1,7 +1,1 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
