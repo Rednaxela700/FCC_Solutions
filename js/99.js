@@ -27,18 +27,21 @@ var contacts = [
 ];
 
 
-function lookUpProfile(name, prop){
+function lookUpProfile(name, prop) {
 // Only change code below this line
     var profileName = name;
     var profileProp = prop;
 
     for (var i = 0; i < contacts.length; i++) {
-       if (contacts[i] === "firstName") {
+        if (contacts[i]["firstName"] === profileName) {
+            if (contacts[i].hasOwnProperty(profileProp)) {
+                return contacts[i][profileProp];
+            }
+        }
 
-       }
     }
+    return "No such contact:";
 // Only change code above this line
 }
-
 // Change these values to test your function
 lookUpProfile("Akira", "likes");
