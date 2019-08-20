@@ -1,3 +1,6 @@
-/**
- * Created by alexander on 17/08/2019.
- */
+function convertToInteger(str) {
+var parsed = parseInt(str);
+return parsed;
+}
+
+convertToInteger("56");
