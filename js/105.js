@@ -1,3 +1,6 @@
-/**
- * Created by alexander on 17/08/2019.
- */
+function checkEqual(a, b) {
+
+    return a === b ? true : false;
+}
+
+checkEqual(1, 2);
