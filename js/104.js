@@ -1,3 +1,7 @@
-/**
- * Created by alexander on 17/08/2019.
- */
+function convertToInteger(str) {
+var myParsed = str;
+
+return parseInt(myParsed, 2)
+}
+
+convertToInteger("10011");
