@@ -1,7 +1,4 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+var myVar = 11;
+
+// Only change code below this line
+myVar--;

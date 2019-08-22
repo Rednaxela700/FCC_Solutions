@@ -1,7 +1,1 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+var product = 8 * 10;

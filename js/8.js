@@ -1,7 +1,1 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+var difference = 45 - 33;

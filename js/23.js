@@ -1,7 +1,1 @@
-// this is an inline comment
-/*
-this is
-a
-multiline
-comment.
- */
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
