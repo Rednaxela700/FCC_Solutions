@@ -1,3 +1,6 @@
-/**
- * Created by alexander on 17/08/2019.
- */
+function checkSign(num) {
+
+    return num === 0 ? "zero" : num < 0 ? "negative" : "positive"
+}
+
+checkSign(10);
